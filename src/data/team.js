@@ -1,44 +1,44 @@
 export const team = [
     {
         id: 1,
-        name: "Rajesh Kumar",
-        role: "Managing Director & Principal Consultant",
-        description: "Over 25 years of experience in leading large-scale water infrastructure and urban development projects across India.",
+        name: "Mr. Shrivatsa",
+        role: "Director",
+        description: "Mr. Shrivatsa is a highly accomplished water sector professional with primary expertise in the planning, design, and implementation of water supply systems, supported by complementary experience in Underground Drainage (UGD) and wastewater infrastructure. With leadership involvement in over 100 water supply projects, his core competencies include source development, transmission and distribution network design, hydraulic modelling, NRW reduction, and continuous (24x7) water supply systems.",
         category: "Leadership"
     },
     {
         id: 2,
-        name: "Suresh Menon",
-        role: "Head of Hydraulic Engineering",
-        description: "Expert in complex network modeling, surge analysis, and designing 24x7 continuous water supply systems.",
+        name: "Mr. S. Raju",
+        role: "Electro-Mechanical Expert",
+        description: "Mr. S. Raju is a highly experienced Electro-Mechanical Expert with over 15+ years of professional experience in the planning, design review, installation, testing, and commissioning of electro-mechanical systems for water supply and wastewater infrastructure projects. He possesses strong expertise in pumping systems, electrical panels, instrumentation, SCADA integration, and energy-efficient operations.",
         category: "Engineering"
     },
     {
         id: 3,
-        name: "Anita Desai",
-        role: "Lead NRW Specialist",
-        description: "Specializes in water audit, DMA formation, and deploying advanced acoustic leak detection methodologies.",
+        name: "Mr. Pawan M. Walvekar",
+        role: "Structural Expert",
+        description: "Mr. Pawan M. Walvekar is a seasoned Structural Expert with over 10+ years of rigorous professional experience in the planning, analysis, design review, and execution support of diverse infrastructure projects, including Industrial Buildings, Water Treatment Plants (WTP), Sewage Treatment Plants (STP), and Effluent Treatment Plants (ETP).",
         category: "Engineering"
     },
     {
         id: 4,
-        name: "Vikram Singh",
-        role: "Chief GIS Analyst",
-        description: "Pioneering the integration of drone topography, consumer indexing, and enterprise GIS databases for utility management.",
+        name: "Mr. Rajendra Gowda",
+        role: "GIS Expert",
+        description: "Mr. Rajendra Gowda is a highly accomplished Roads and Topographical Survey Expert with over three decades of progressive field experience across highways, canals, transmission corridors, industrial layouts, and large-scale urban developments. His core strengths include large-area topographical mapping, road alignment surveys, and infrastructure support surveys.",
         category: "GIS"
     },
     {
         id: 5,
-        name: "Priya Sharma",
-        role: "Project Financial Analyst",
-        description: "Handles project lifecycle costing, BOQ preparation, and financial viability indexing for multi-crore DPRs.",
+        name: "Mr. A. K. Basha",
+        role: "Financial Analyst",
+        description: "Mr. A. K. Basha is an accomplished Financial Analyst with over 15+ years of specialized experience in financial planning, investment analysis, and revenue assessment for water supply and wastewater infrastructure projects. He brings strong expertise in project financial modeling, CAPEX–OPEX analysis, tariff structuring, and consumer consumption analytics.",
         category: "Finance"
     },
     {
         id: 6,
-        name: "Amit Patel",
-        role: "Senior Survey Engineer",
-        description: "Adept at high-precision DGPS and Total Station surveys, even in challenging terrains for cross-country pipelines.",
+        name: "Mr. Pratap",
+        role: "Survey Expert",
+        description: "Mr. Pratap is an experienced Survey Expert with over 10+ years of dedicated professional experience in conducting large-scale house-to-house consumer surveys for water supply and urban infrastructure projects. He specializes in door-to-door data collection, consumer enumeration, service connectivity assessment, meter status verification, and consumption profiling.",
         category: "Survey"
     }
 ];
