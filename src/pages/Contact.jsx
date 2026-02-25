@@ -70,7 +70,7 @@ const Contact = () => {
                             <AnimatedSection animation="fade-in" delay={400} className="map-container">
                                 <div style={{ marginTop: '8rem', borderRadius: '12px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.1)' }}>
                                     <iframe
-                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.750942095692!2d77.60623321482161!3d12.915013090888258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1500445d5a89%3A0x6b4bb55c3c0de4cb!2s15th%20Main%20Rd%2C%202nd%20Stage%2C%20BTM%20Layout%2C%20Bengaluru%2C%20Karnataka%20560076!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                                        src="https://www.google.com/maps?q=1232,+15th+Main+Road,+BTM+2nd+Stage,+Bangalore,+Karnataka+560076&output=embed"
                                         width="100%"
                                         height="450"
                                         style={{ border: 0, display: 'block' }}

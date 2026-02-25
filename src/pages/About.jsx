@@ -8,7 +8,7 @@ const About = () => {
             <section className="page-header">
                 <div className="container">
                     <AnimatedSection animation="slide-up">
-                        <h1 className="page-title text-gradient">ABOUT WATSYS CONSULTING ENGINEERS</h1>
+                        <h1 className="page-title text-gradient">About Us</h1>
                         <p className="page-subtitle">Expertise rooted in sustainable water engineering since 2018.</p>
                     </AnimatedSection>
                 </div>

@@ -40,8 +40,20 @@ body {
   color: var(--color-text);
   background-color: var(--color-bg);
   line-height: 1.6;
-  text-align: justify;
+  text-align: left;
+  /* Better readability than justify */
   overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  body {
+    line-height: 1.7;
+    /* Increased line-height for mobile readability */
+    word-spacing: 0.05em;
+    /* Slightly looser word spacing */
+    font-size: 0.95rem;
+    /* Slightly scale down baseline text on small screens */
+  }
 }
 
 h1,
@@ -51,6 +63,25 @@ h4,
 h5,
 h6 {
   font-family: var(--font-heading);
+}
+
+p {
+  margin-bottom: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  body {
+    line-height: 1.7;
+    word-spacing: 0.05em;
+    font-size: 0.95rem;
+  }
+
+  p,
+  li,
+  span,
+  div {
+    text-align: left !important;
+  }
 }
 
 a {
