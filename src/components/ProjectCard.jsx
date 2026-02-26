@@ -1,15 +1,35 @@
 import { MapPin } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import projectImage1 from '../assets/new-project-photo-1.jpeg';
+import projectImage2 from '../assets/new-project-photo-2.jpeg';
+import projectImage3 from '../assets/new-project-photo-3.jpeg';
+import projectImage4 from '../assets/new-project-photo-4.jpeg';
 import './ProjectCard.css';
 
+const getCategoryImage = (category) => {
+    switch (category) {
+        case 'Water Supply': return projectImage1;
+        case 'Underground Drainage': return projectImage2;
+        case 'NRW Reduction': return projectImage3;
+        default: return projectImage4;
+    }
+}
+
 const ProjectCard = ({ project }) => {
+    const heroImage = getCategoryImage(project.category);
+
     return (
         <div className="project-card">
-            <div className="project-image-placeholder">
-                <span className="project-category">{project.category}</span>
-                <div className="project-status">
-                    <span className={`status-dot ${project.status === 'Completed' ? 'status-completed' : 'status-ongoing'}`}></span>
-                    {project.status}
+            <div className="project-image-placeholder" style={{ backgroundImage: `url(${heroImage})`, backgroundSize: 'cover', backgroundPosition: 'center', position: 'relative' }}>
+                {/* Dark overlay for readability */}
+                <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: 'rgba(0,0,0,0.3)', zIndex: 1 }}></div>
+
+                <div style={{ position: 'relative', zIndex: 2, display: 'flex', flexDirection: 'column', justifyContent: 'space-between', height: '100%' }}>
+                    <span className="project-category">{project.category}</span>
+                    <div className="project-status">
+                        <span className={`status-dot ${project.status === 'Completed' ? 'status-completed' : 'status-ongoing'}`}></span>
+                        {project.status}
+                    </div>
                 </div>
             </div>
             <div className="project-content">

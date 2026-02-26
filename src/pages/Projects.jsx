@@ -17,6 +17,31 @@ const Projects = () => {
         return matchesFilter && matchesSearch;
     });
 
+    const handleSearchChange = (e) => {
+        const value = e.target.value;
+        setSearchTerm(value);
+
+        if (value.length > 2) {
+            // Find the ID of the first matching project to scroll to it
+            const matchedProject = projects.find(project =>
+                (filter === 'All' || project.status === filter) &&
+                (project.name.toLowerCase().includes(value.toLowerCase()) ||
+                    project.location.toLowerCase().includes(value.toLowerCase()) ||
+                    project.client.toLowerCase().includes(value.toLowerCase()))
+            );
+
+            if (matchedProject) {
+                setTimeout(() => {
+                    const el = document.getElementById(`project-${matchedProject.id}`);
+                    if (el) {
+                        const y = el.getBoundingClientRect().top + window.scrollY - 100;
+                        window.scrollTo({ top: y, behavior: 'smooth' });
+                    }
+                }, 100);
+            }
+        }
+    };
+
     return (
         <div className="projects-page">
             <section className="page-header">
@@ -36,9 +61,9 @@ const Projects = () => {
                             <Search className="search-icon" size={20} />
                             <input
                                 type="text"
-                                placeholder="Search projects by name, location, or client..."
+                                placeholder="Search by name, location, or client to auto-scroll..."
                                 value={searchTerm}
-                                onChange={(e) => setSearchTerm(e.target.value)}
+                                onChange={handleSearchChange}
                             />
                         </div>
 
@@ -68,7 +93,7 @@ const Projects = () => {
                     <div className="projects-grid">
                         {filteredProjects.length > 0 ? (
                             filteredProjects.map((project, index) => (
-                                <AnimatedSection key={project.id} animation="slide-up" delay={index * 100}>
+                                <AnimatedSection key={project.id} id={`project-${project.id}`} animation="slide-up" delay={index * 100}>
                                     <ProjectCard project={project} />
                                 </AnimatedSection>
                             ))
