@@ -66,7 +66,7 @@ const Services = () => {
                                         <img src={service.image} alt={`${service.title} Illustration`} className="service-image" />
                                     </div>
                                     {service.realImage && (
-                                        <div className="service-image-wrapper" style={{ marginTop: '2.5rem' }}>
+                                        <div className="service-image-wrapper">
                                             <img src={service.realImage} alt={`${service.title} Project Sight`} className="service-image" style={{ borderRadius: '12px', boxShadow: '0 10px 30px rgba(0,0,0,0.1)' }} />
                                         </div>
                                     )}
