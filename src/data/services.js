@@ -1,6 +1,6 @@
-import imgWaterSupply from '../assets/Water Supply Systems.png';
-import imgUGD from '../assets/Underground Drainage (UGD) & Sewer.png';
-import imgNRW from '../assets/NRW .png';
+import imgWaterSupply from '../assets/Water_Supply_Systems.png';
+import imgUGD from '../assets/Underground_Drainage_UGD_Sewer.png';
+import imgNRW from '../assets/NRW.png';
 import imgHydraulic from '../assets/HYDRAULIC.png';
 import imgGIS from '../assets/GIS.png';
 import imgDPR from '../assets/DPR.png';

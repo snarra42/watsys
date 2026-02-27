@@ -77,7 +77,7 @@ const Home = () => {
                             {/* NEW STAT ADDED */}
                             <div className="stat-card">
                                 <span className="stat-number">1M+</span>
-                                <span className="stat-label">Customers Served</span>
+                                <span className="stat-label">Customers surveyed</span>
                             </div>
                         </div>
 

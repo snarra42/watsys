@@ -4,6 +4,10 @@ import AnimatedSection from '../components/AnimatedSection';
 import './Services.css';
 import customerSurveyField from '../assets/customer_survey_field.png';
 import gisNetworkMap from '../assets/gis_network_map.png';
+import customerSurveyReal1 from '../assets/customer-survey-real-1.png';
+import customerSurveyReal2 from '../assets/customer-survey-real-2.png';
+import customerSurveyReal3 from '../assets/customer-survey-real-3.png';
+import customerSurveyReal4 from '../assets/customer-survey-real-4.png';
 import realTopo1 from '../assets/new-topo-1.jpeg';
 import realTopo2 from '../assets/new-topo-2.jpeg';
 import realTopo3 from '../assets/new-topo-3.jpeg';
@@ -76,6 +80,11 @@ const Services = () => {
                                             </ul>
                                         </div>
                                     </div>
+                                    {service.id === 'gis-survey' && (
+                                        <a href="#explore-surveys" className="btn btn-primary" style={{ marginTop: '2rem', display: 'inline-block' }}>
+                                            Explore our Surveys
+                                        </a>
+                                    )}
                                 </AnimatedSection>
                                 <AnimatedSection animation="fade-in" delay={300} className="service-visual-col hover-float">
                                     <div className="service-image-wrapper">
@@ -93,7 +102,7 @@ const Services = () => {
                 </div>
             </section>
 
-            <section className="section survey-content-section" style={{ paddingBottom: '2rem' }}>
+            <section id="explore-surveys" className="section survey-content-section" style={{ paddingBottom: '2rem' }}>
                 <div className="container">
                     <AnimatedSection animation="fade-in" className="survey-text-box">
                         <h2 style={{ background: '#0A2540', color: 'white', display: 'inline-block', padding: '0.5rem 1rem', borderRadius: '4px', marginBottom: '1.5rem', fontSize: '1.5rem' }}>Customer Survey</h2>
@@ -108,6 +117,10 @@ const Services = () => {
                     <div className="customer-survey-images" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem', marginTop: '2rem' }}>
                         <img src={customerSurveyField} alt="Customer Survey Field" style={{ width: '100%', borderRadius: '8px', objectFit: 'cover', aspectRatio: '4/3', boxShadow: '0 4px 15px rgba(0,0,0,0.1)' }} />
                         <img src={gisNetworkMap} alt="GIS Network Map" style={{ width: '100%', borderRadius: '8px', objectFit: 'cover', aspectRatio: '4/3', boxShadow: '0 4px 15px rgba(0,0,0,0.1)' }} />
+                        <img src={customerSurveyReal1} alt="Customer Survey Real Project 1" style={{ width: '100%', borderRadius: '8px', objectFit: 'cover', aspectRatio: '4/3', boxShadow: '0 4px 15px rgba(0,0,0,0.1)' }} />
+                        <img src={customerSurveyReal2} alt="Customer Survey Real Project 2" style={{ width: '100%', borderRadius: '8px', objectFit: 'cover', aspectRatio: '4/3', boxShadow: '0 4px 15px rgba(0,0,0,0.1)' }} />
+                        <img src={customerSurveyReal3} alt="Customer Survey Real Project 3" style={{ width: '100%', borderRadius: '8px', objectFit: 'cover', aspectRatio: '4/3', boxShadow: '0 4px 15px rgba(0,0,0,0.1)' }} />
+                        <img src={customerSurveyReal4} alt="Customer Survey Real Project 4" style={{ width: '100%', borderRadius: '8px', objectFit: 'cover', aspectRatio: '4/3', boxShadow: '0 4px 15px rgba(0,0,0,0.1)' }} />
                     </div>
                 </div>
             </section>
