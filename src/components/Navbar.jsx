@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Droplets } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import logo from '../assets/logo.jpeg';
 import './Navbar.css';
 
@@ -13,6 +13,7 @@ const Navbar = () => {
         const handleScroll = () => {
             setScrolled(window.scrollY > 20);
         };
+
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
@@ -23,7 +24,6 @@ const Navbar = () => {
         { name: 'Home', path: '/' },
         { name: 'About', path: '/about' },
         { name: 'Services', path: '/services' },
-
         { name: 'Projects', path: '/projects' },
         { name: 'Team', path: '/team' },
         { name: 'Contact', path: '/contact' }
@@ -32,14 +32,20 @@ const Navbar = () => {
     return (
         <header className={`navbar ${scrolled ? 'scrolled' : ''}`}>
             <div className="container nav-container">
+
+                {/* Brand */}
                 <Link to="/" className="brand">
-                    <img src={logo} alt="WCE Logo" className="brand-logo" />
+                    <img src={logo} alt="WATSYS Logo" className="brand-logo" />
+
                     <div className="brand-text">
-                        <h1 style={{ marginLeft: "24px" }}>WATSYS</h1>
-                        <span>Consulting Engineers</span>
+                        <div className="brand-name">WATSYS</div>
+                        <div className="brand-subtitle">
+                            Consulting Engineers
+                        </div>
                     </div>
                 </Link>
 
+                {/* Navigation */}
                 <div className={`nav-links ${isOpen ? 'active' : ''}`}>
                     {navLinks.map((link) => (
                         <Link
@@ -51,14 +57,25 @@ const Navbar = () => {
                             {link.name}
                         </Link>
                     ))}
-                    <Link to="/contact" className="btn btn-primary nav-btn" onClick={() => setIsOpen(false)}>
+
+                    <Link
+                        to="/contact"
+                        className="btn btn-primary nav-btn"
+                        onClick={() => setIsOpen(false)}
+                    >
                         Get in Touch
                     </Link>
                 </div>
 
-                <button className="mobile-menu-btn" onClick={toggleMenu} aria-label="Toggle menu">
+                {/* Mobile Menu Button */}
+                <button
+                    className="mobile-menu-btn"
+                    onClick={toggleMenu}
+                    aria-label="Toggle menu"
+                >
                     {isOpen ? <X size={28} /> : <Menu size={28} />}
                 </button>
+
             </div>
         </header>
     );

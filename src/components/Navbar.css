@@ -27,10 +27,12 @@
     height: 100%;
 }
 
+/* Brand */
 .brand {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 16px;
+    text-decoration: none;
     color: var(--color-primary);
 }
 
@@ -40,21 +42,33 @@
     object-fit: contain;
 }
 
-.brand-text h1 {
-    font-size: 1.5rem;
-    font-weight: 700;
+/* Centered Brand Text */
+.brand-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* centers text */
+    justify-content: center;
     line-height: 1.1;
-    letter-spacing: -0.5px;
 }
 
-.brand-text span {
-    font-size: 0.75rem;
-    font-weight: 500;
-    color: var(--color-text-muted);
+/* WATSYS */
+.brand-name {
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+/* Consulting Engineers */
+.brand-subtitle {
+    font-size: 0.9rem;
+    font-weight: 800;
+    letter-spacing: 2px;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+
 }
 
+/* Navigation */
 .nav-links {
     display: flex;
     align-items: center;
@@ -67,6 +81,7 @@
     color: var(--color-text);
     transition: color var(--transition-speed);
     position: relative;
+    text-decoration: none;
 }
 
 .nav-link:hover,
@@ -94,6 +109,7 @@
     margin-left: 1rem;
 }
 
+/* Mobile */
 .mobile-menu-btn {
     display: none;
     background: none;
@@ -103,6 +119,7 @@
 }
 
 @media (max-width: 900px) {
+
     .mobile-menu-btn {
         display: block;
     }

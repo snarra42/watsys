@@ -13,44 +13,43 @@ const Footer = () => {
 
                 {/* Brand Column */}
                 <div className="footer-col brand-col">
-                    <Link to="/" className="footer-brand">
 
+                    <Link to="/" className="footer-brand">
                         <img
                             src={logo}
                             alt="WATSYS Logo"
-                            className="brand-logo"
-                            style={{ width: "auto", height: "2.5rem" }}
+                            className="footer-logo"
                         />
 
-                        <div className="brand-text">
-                            <h2>WATSYS</h2>
-                            <span>Consulting Engineers Pvt. Ltd.</span>
+                        <div className="footer-brand-text">
+                            <div className="footer-brand-name">WATSYS</div>
+                            <div className="footer-brand-name">
+                                Consulting Engineers Pvt. Ltd.
+                            </div>
                         </div>
-
                     </Link>
 
                     <p className="footer-desc">
                         Specialized engineering consultancy in Water Supply Systems,
                         Underground Drainage (UGD), and Non-Revenue Water (NRW/UFW) reduction.
                     </p>
-                </div>
 
+                </div>
 
                 {/* Quick Links */}
                 <div className="footer-col links-col">
+
                     <h3>Quick Links</h3>
 
                     <ul>
                         <li><Link to="/about">About Us</Link></li>
                         <li><Link to="/services">Our Services</Link></li>
-
                         <li><Link to="/projects">Project Portfolio</Link></li>
                         <li><Link to="/team">Engineering Team</Link></li>
                         <li><Link to="/contact">Contact Us</Link></li>
                     </ul>
 
                 </div>
-
 
                 {/* Services */}
                 <div className="footer-col services-col">
@@ -67,18 +66,14 @@ const Footer = () => {
 
                 </div>
 
-
                 {/* Contact */}
                 <div className="footer-col contact-col">
 
                     <h3>Contact Details</h3>
 
-
                     {/* Address */}
                     <div className="contact-item">
-
                         <MapPin size={20} className="contact-icon" />
-
                         <a
                             href="https://www.google.com/maps/search/?api=1&query=1232,+15th+Main+Road,+BTM+2nd+Stage,+Bangalore,+Karnataka+-+560076"
                             target="_blank"
@@ -88,16 +83,12 @@ const Footer = () => {
                             1232, 15th Main Road, BTM 2nd Stage,
                             Bangalore, Karnataka - 560076
                         </a>
-
                     </div>
-
 
                     {/* Phone */}
                     <div className="contact-item">
-
                         <Phone size={20} className="contact-icon" />
-
-                        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
+                        <div className="contact-phones">
                             <a href="tel:+918035979407" className="contact-link">
                                 +91 8035979407
                             </a>
@@ -108,28 +99,22 @@ const Footer = () => {
                                 +91 7829607809
                             </a>
                         </div>
-
                     </div>
-
 
                     {/* Email */}
                     <div className="contact-item">
-
                         <Mail size={20} className="contact-icon" />
-
                         <a
                             href="mailto:info@watsysconsulting.com?subject=Engineering Consultancy Inquiry&body=Hello Watsys Consulting Engineers,"
                             className="contact-link"
                         >
                             info@watsysconsulting.com
                         </a>
-
                     </div>
 
                 </div>
 
             </div>
-
 
             {/* Bottom Footer */}
             <div className="footer-bottom">
@@ -142,11 +127,8 @@ const Footer = () => {
                     </p>
 
                     <div className="footer-legal">
-
                         <Link to="#">Privacy Policy</Link>
-
                         <Link to="#">Terms of Service</Link>
-
                     </div>
 
                 </div>
