@@ -1,29 +1,29 @@
 export const projects = [
     {
         "id": 1,
-        "name": "Providing 24x7 pressurized continuous water supply scheme to Ballari City under KMERC",
+        "name": "Providing 24x7 pressurized continuous water supply scheme to Ballari City under Karnataka Mining Environment Restoration Corporation",
         "location": "Ballari",
-        "client": "Sree Subha Sales Engineers & Contractors",
+        "client": "Karnataka Urban Water Supply and Drainage Board",
         "status": "Ongoing",
-        "description": "Providing 24x7 pressurized continuous water supply scheme to Ballari City under KMERC",
+        "description": "Providing 24x7 pressurized continuous water supply scheme to Ballari City under Karnataka Mining Environment Restoration Corporation",
         "category": "Water Supply"
     },
     {
         "id": 2,
-        "name": "Providing 24x7 pressurized continuous water supply scheme to Kurekuppa and Toranagallu under KMERC Kurekuppa &",
+        "name": "Providing 24x7 pressurized continuous water supply scheme to Kurekuppa and Toranagallu under Karnataka Mining Environment Restoration Corporation Kurekuppa &",
         "location": "Toranagallu",
         "client": "KMREC",
         "status": "Ongoing",
-        "description": "Providing 24x7 pressurized continuous water supply scheme to Kurekuppa and Toranagallu under KMERC Kurekuppa &",
+        "description": "Providing 24x7 pressurized continuous water supply scheme to Kurekuppa and Toranagallu under Karnataka Mining Environment Restoration Corporation Kurekuppa &",
         "category": "Water Supply"
     },
     {
         "id": 3,
-        "name": "Providing 24x7 pressurized continuous water supply scheme to Sandur under KMERC",
+        "name": "Providing 24x7 pressurized continuous water supply scheme to Sandur under Karnataka Mining Environment Restoration Corporation",
         "location": "Sandur",
         "client": "KMREC",
         "status": "Ongoing",
-        "description": "Providing 24x7 pressurized continuous water supply scheme to Sandur under KMERC",
+        "description": "Providing 24x7 pressurized continuous water supply scheme to Sandur under Karnataka Mining Environment Restoration Corporation",
         "category": "Water Supply"
     },
     {
@@ -82,11 +82,11 @@ export const projects = [
     },
     {
         "id": 10,
-        "name": "Providing 24x7 pressurized continuous water supply scheme to Kuditini under KMERC",
+        "name": "Providing 24x7 pressurized continuous water supply scheme to Kuditini under Karnataka Mining Environment Restoration Corporation",
         "location": "Kuditini",
         "client": "KMREC",
         "status": "Ongoing",
-        "description": "Providing 24x7 pressurized continuous water supply scheme to Kuditini under KMERC",
+        "description": "Providing 24x7 pressurized continuous water supply scheme to Kuditini under Karnataka Mining Environment Restoration Corporation",
         "category": "Water Supply"
     },
     {
@@ -210,7 +210,7 @@ export const projects = [
         "id": 24,
         "name": "Water Supply Scheme to Hootagalli CMC",
         "location": "Hootgalli",
-        "client": "Sree Subha Sales Engineers & Contractors",
+        "client": "Karnataka Urban Water Supply and Drainage Board",
         "status": "Completed",
         "description": "Water Supply Scheme to Hootagalli CMC",
         "category": "Water Supply"
@@ -318,7 +318,7 @@ export const projects = [
         "id": 36,
         "name": "Improvements of Water Supply System to Karkala Town with Ennehole River as Source Including O&M for A Period of 5 Years (Including 1 Year DLP) Through DBOT",
         "location": "Mode Karkala",
-        "client": "Sree Subha Sales Engineers & Contractors",
+        "client": "Karnataka Urban Water Supply and Drainage Board",
         "status": "Completed",
         "description": "Improvements of Water Supply System to Karkala Town with Ennehole River as Source Including O&M for A Period of 5 Years (Including 1 Year DLP) Through DBOT",
         "category": "Water Supply"
@@ -336,7 +336,7 @@ export const projects = [
         "id": 38,
         "name": "Providing Water Supply Scheme to  Town in Shorapur Taluka, Yadgir District with Narayanpur Dam in Jaladhare Scheme Water as Source Under Amruth 2.0 Including O&M for A Period of 5 Years (Including 1 Year Defects Liability Period) Through Design, Build, Operate and Transfer (DOBT) Mode Kembhavi",
         "location": "Kembhavi",
-        "client": "Sree Subha Sales Engineers & Contractors",
+        "client": "Karnataka Urban Water Supply and Drainage Board",
         "status": "Completed",
         "description": "Providing Water Supply Scheme to  Town in Shorapur Taluka, Yadgir District with Narayanpur Dam in Jaladhare Scheme Water as Source Under Amruth 2.0 Including O&M for A Period of 5 Years (Including 1 Year Defects Liability Period) Through Design, Build, Operate and Transfer (DOBT) Mode Kembhavi",
         "category": "Water Supply"
@@ -381,7 +381,7 @@ export const projects = [
         "id": 43,
         "name": "Providing Water Supply Distribution System to Left Out Areas of  Town Including Operation & Maintenance for A Period of 5 Years (Including 1 Year DLP) Through Design, Build, Operation and Transfer (DBOT) Mode Naragund",
         "location": "Naragund",
-        "client": "Sree Subha Sales Engineers & Contractors",
+        "client": "Karnataka Urban Water Supply and Drainage Board",
         "status": "Completed",
         "description": "Providing Water Supply Distribution System to Left Out Areas of  Town Including Operation & Maintenance for A Period of 5 Years (Including 1 Year DLP) Through Design, Build, Operation and Transfer (DBOT) Mode Naragund",
         "category": "Water Supply"
@@ -426,7 +426,7 @@ export const projects = [
         "id": 48,
         "name": "Providing Water Supply System to  TP with Kabini River as Source Under Amrut 2.0 Including Operation & Maintenance for A Period of 5 Years Through Design, Build, Operation and Transfer (DBOT) Mode Srirampura",
         "location": "Srirampura",
-        "client": "Sree Subha Sales Engineers & Contractors",
+        "client": "Karnataka Urban Water Supply and Drainage Board",
         "status": "Completed",
         "description": "Providing Water Supply System to  TP with Kabini River as Source Under Amrut 2.0 Including Operation & Maintenance for A Period of 5 Years Through Design, Build, Operation and Transfer (DBOT) Mode Srirampura",
         "category": "Water Supply"
@@ -435,7 +435,7 @@ export const projects = [
         "id": 49,
         "name": "Improvements of Water Supply System to  Town with Payaswini River as Source Under Amrut 2.0 Including Operation & Maintenance for A Period of 5 Years (Including 1 Year DLP) Through Design, Build, Operation and Transfer (DBOT) Mode Sullia",
         "location": "Sullia",
-        "client": "Sree Subha Sales Engineers & Contractors",
+        "client": "Karnataka Urban Water Supply and Drainage Board",
         "status": "Completed",
         "description": "Improvements of Water Supply System to  Town with Payaswini River as Source Under Amrut 2.0 Including Operation & Maintenance for A Period of 5 Years (Including 1 Year DLP) Through Design, Build, Operation and Transfer (DBOT) Mode Sullia",
         "category": "Water Supply"
@@ -480,7 +480,7 @@ export const projects = [
         "id": 54,
         "name": "Providing Water Supply System to Saundatti Town Including Operation & Maintenance for A Period of 3 Years (Including DLP) Through Design, Build, Operation and Transfer (DBOT)",
         "location": "Saundatti",
-        "client": "Sree Subha Sales Engineers & Contractors",
+        "client": "Karnataka Urban Water Supply and Drainage Board",
         "status": "Completed",
         "description": "Providing Water Supply System to Saundatti Town Including Operation & Maintenance for A Period of 3 Years (Including DLP) Through Design, Build, Operation and Transfer (DBOT)",
         "category": "Water Supply"

@@ -19,7 +19,7 @@ const Footer = () => {
                             src={logo}
                             alt="WATSYS Logo"
                             className="brand-logo"
-                            style={{ width: "50px", height: "auto" }}
+                            style={{ width: "auto", height: "2.5rem" }}
                         />
 
                         <div className="brand-text">
@@ -43,7 +43,7 @@ const Footer = () => {
                     <ul>
                         <li><Link to="/about">About Us</Link></li>
                         <li><Link to="/services">Our Services</Link></li>
-                        <li><Link to="/survey">Customer Survey</Link></li>
+
                         <li><Link to="/projects">Project Portfolio</Link></li>
                         <li><Link to="/team">Engineering Team</Link></li>
                         <li><Link to="/contact">Contact Us</Link></li>
@@ -97,12 +97,17 @@ const Footer = () => {
 
                         <Phone size={20} className="contact-icon" />
 
-                        <a
-                            href="tel:+918035979407"
-                            className="contact-link"
-                        >
-                            +91-80-3597-9407
-                        </a>
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
+                            <a href="tel:+918035979407" className="contact-link">
+                                +91 8035979407
+                            </a>
+                            <a href="tel:+919164004600" className="contact-link">
+                                +91 9164004600
+                            </a>
+                            <a href="tel:+917829607809" className="contact-link">
+                                +91 7829607809
+                            </a>
+                        </div>
 
                     </div>
 

@@ -36,6 +36,18 @@ const Team = () => {
                 </div>
             </section>
 
+            <section className="section team-support bg-light">
+                <div className="container">
+                    <AnimatedSection animation="fade-in">
+                        <div className="support-team-content text-center mx-auto" style={{ maxWidth: '900px', padding: '2rem 0' }}>
+                            <p style={{ fontSize: '1.1rem', lineHeight: '1.8', color: 'var(--color-text-muted)' }}>
+                                The organization is strengthened by a multidisciplinary team comprising design engineers, draughtsmen, surveyors, and accountants who collectively ensure smooth execution of projects. Design engineers assist in detailed calculations, preparation of technical drawings, BOQs, and design validations. Draughtsmen are responsible for preparing accurate CAD drawings, layout plans, longitudinal sections, and schematic representations in accordance with project standards. Surveyors conduct topographical surveys, DGPS mapping, and field data collection to support planning and design activities. The accounts team manages budgeting, financial documentation, billing, cost tracking, and statutory compliance, ensuring financial discipline throughout the project lifecycle. This integrated support structure enables timely delivery, technical accuracy, and effective coordination across all stages of infrastructure projects.
+                            </p>
+                        </div>
+                    </AnimatedSection>
+                </div>
+            </section>
+
             <section className="section join-team bg-alt">
                 <div className="container text-center">
                     <AnimatedSection animation="fade-in">

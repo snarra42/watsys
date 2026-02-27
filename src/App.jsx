@@ -8,7 +8,7 @@ import Projects from './pages/Projects';
 import ProjectDetails from './pages/ProjectDetails';
 import Team from './pages/Team';
 import Contact from './pages/Contact';
-import CustomerSurvey from './pages/CustomerSurvey';
+
 import WaterBubbles from './components/WaterBubbles';
 import ScrollToTop from './components/ScrollToTop';
 import ChatbotWidget from './components/ChatbotWidget';
@@ -25,7 +25,7 @@ function App() {
                         <Route path="/" element={<Home />} />
                         <Route path="/about" element={<About />} />
                         <Route path="/services" element={<Services />} />
-                        <Route path="/survey" element={<CustomerSurvey />} />
+
                         <Route path="/projects" element={<Projects />} />
                         <Route path="/projects/:id" element={<ProjectDetails />} />
                         <Route path="/team" element={<Team />} />

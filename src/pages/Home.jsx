@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ChevronRight, CheckCircle2, Award, Users, HardHat, Building2, MapPin } from 'lucide-react';
+import { ChevronRight, Award, Users, HardHat, Building2 } from 'lucide-react';
 import ServiceCard from '../components/ServiceCard';
 import ProjectCard from '../components/ProjectCard';
 import { services } from '../data/services';
@@ -52,24 +52,35 @@ const Home = () => {
                                 More About Our Company <ChevronRight size={18} />
                             </Link>
                         </div>
+
                         <div className="overview-stats">
                             <div className="stat-card">
                                 <span className="stat-number">105+</span>
                                 <span className="stat-label">Projects Completed</span>
                             </div>
+
                             <div className="stat-card">
                                 <span className="stat-number">25+</span>
                                 <span className="stat-label">Engineering Experts</span>
                             </div>
+
                             <div className="stat-card">
                                 <span className="stat-number">10+</span>
                                 <span className="stat-label">States Covered</span>
                             </div>
+
                             <div className="stat-card">
                                 <span className="stat-number">15+</span>
-                                <span className="stat-label">Govt. Clients</span>
+                                <span className="stat-label">Clients</span>
+                            </div>
+
+                            {/* NEW STAT ADDED */}
+                            <div className="stat-card">
+                                <span className="stat-number">1M+</span>
+                                <span className="stat-label">Customers Served</span>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </section>
@@ -104,16 +115,19 @@ const Home = () => {
                             <h3>Specialized Infrastructure Consultancy</h3>
                             <p>Focused exclusively on large-scale water and wastewater sector projects, ensuring deep domain expertise.</p>
                         </div>
+
                         <div className="reason-item">
                             <Building2 className="reason-icon" size={40} />
                             <h3>Government Project Experience</h3>
                             <p>Extensive track record navigating complex approval processes with municipal and state-level government bodies.</p>
                         </div>
+
                         <div className="reason-item">
                             <Users className="reason-icon" size={40} />
                             <h3>Expert Engineering Team</h3>
                             <p>A diverse talent pool of hydraulic modelers, structural designers, GIS analysts, and survey specialists.</p>
                         </div>
+
                         <div className="reason-item">
                             <HardHat className="reason-icon" size={40} />
                             <h3>Data-Driven Engineering</h3>
