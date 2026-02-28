@@ -8,6 +8,7 @@ import Projects from './pages/Projects';
 import ProjectDetails from './pages/ProjectDetails';
 import Team from './pages/Team';
 import Contact from './pages/Contact';
+import Surveys from './pages/Surveys';
 
 import WaterBubbles from './components/WaterBubbles';
 import ScrollToTop from './components/ScrollToTop';
@@ -25,6 +26,7 @@ function App() {
                         <Route path="/" element={<Home />} />
                         <Route path="/about" element={<About />} />
                         <Route path="/services" element={<Services />} />
+                        <Route path="/surveys" element={<Surveys />} />
 
                         <Route path="/projects" element={<Projects />} />
                         <Route path="/projects/:id" element={<ProjectDetails />} />
