@@ -71,7 +71,7 @@ const Surveys = () => {
 
                     {/* Grid for Topographical Survey Images */}
                     <div className="survey-image-grid">
-                        {[customerSurveyField, customerSurveyReal2, customerSurveyReal4, realTopo1, realTopo2, realTopo3, realTopo4, realTopo5, realTopo6, realTopo8, realTopo9, realTopo10, realTopo11, realTopo12, realTopo13, realTopo14].map((src, idx) => (
+                        {[customerSurveyField, customerSurveyReal2, customerSurveyReal4, realTopo1, realTopo2, realTopo4, realTopo5, realTopo8, realTopo9, realTopo10, realTopo12, realTopo13, realTopo14].map((src, idx) => (
                             <img key={idx} src={src} alt={`Topographical Survey Location ${idx + 1}`} className="survey-image-item" />
                         ))}
                     </div>
