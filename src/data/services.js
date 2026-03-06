@@ -21,15 +21,14 @@ export const services = [
         process: ["System Assessment", "Hydraulic Modeling", "Network Design", "Continuous Supply Planning (24x7)"]
     },
     {
-        id: "ugd-sewer",
-        title: "Underground Drainage (UGD) & Sewer",
-        shortDesc: "Advanced design for wastewater collection, conveyance, and strategic STP placement.",
-        description: "Our UGD designs prioritize gravity-flow optimization and safe conveyance of wastewater. We specialize in designing deep sewer networks, lift stations, and trunk mains conforming to CPHEEO manual standards.",
-        icon: "Waves",
-        image: imgUGD,
-        realImage: realPhoto2,
-        benefits: ["Prevention of water logging", "Improved urban sanitation", "Cost-effective construction depths"],
-        process: ["Topographical Analysis", "Sewer Network Design", "Pumping Station Design", "Wastewater Infrastructure Planning"]
+        id: "hydraulic-modeling",
+        title: "Hydraulic Modeling & Engineering Analysis",
+        shortDesc: "Advanced simulation of water and wastewater networks.",
+        description: "Using industry-standard software like Bentley WaterGEMS and SewerGEMS, we simulate network behaviors under various demand scenarios, helping utilities foresee bottlenecks and optimize operations.",
+        icon: "Network",
+        image: imgHydraulic,
+        benefits: ["Predictive operational insights", "Surge and transient analysis", "Energy optimization"],
+        process: ["Data Collection", "Model Calibration", "Extended Period Simulation", "Optimization Scenarios"]
     },
     {
         id: "nrw-reduction",
@@ -43,14 +42,15 @@ export const services = [
         process: ["Water Loss Analysis", "Leak Detection Planning", "DMA Design", "Metering Strategy"]
     },
     {
-        id: "hydraulic-modeling",
-        title: "Hydraulic Modeling & Engineering Analysis",
-        shortDesc: "Advanced simulation of water and wastewater networks.",
-        description: "Using industry-standard software like Bentley WaterGEMS and SewerGEMS, we simulate network behaviors under various demand scenarios, helping utilities foresee bottlenecks and optimize operations.",
-        icon: "Network",
-        image: imgHydraulic,
-        benefits: ["Predictive operational insights", "Surge and transient analysis", "Energy optimization"],
-        process: ["Data Collection", "Model Calibration", "Extended Period Simulation", "Optimization Scenarios"]
+        id: "ugd-sewer",
+        title: "Underground Drainage (UGD) & Sewer",
+        shortDesc: "Advanced design for wastewater collection, conveyance, and strategic STP placement.",
+        description: "Our UGD designs prioritize gravity-flow optimization and safe conveyance of wastewater. We specialize in designing deep sewer networks, lift stations, and trunk mains conforming to CPHEEO manual standards.",
+        icon: "Waves",
+        image: imgUGD,
+        realImage: realPhoto2,
+        benefits: ["Prevention of water logging", "Improved urban sanitation", "Cost-effective construction depths"],
+        process: ["Topographical Analysis", "Sewer Network Design", "Pumping Station Design", "Wastewater Infrastructure Planning"]
     },
     {
         id: "gis-survey",

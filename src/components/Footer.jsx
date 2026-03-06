@@ -58,9 +58,9 @@ const Footer = () => {
 
                     <ul>
                         <li><Link to="/services#water-supply">Water Supply Systems</Link></li>
-                        <li><Link to="/services#ugd-sewer">Underground Drainage</Link></li>
-                        <li><Link to="/services#nrw-reduction">NRW/UFW Reduction</Link></li>
                         <li><Link to="/services#hydraulic-modeling">Hydraulic Modeling</Link></li>
+                        <li><Link to="/services#nrw-reduction">NRW/UFW Reduction</Link></li>
+                        <li><Link to="/services#ugd-sewer">Underground Drainage</Link></li>
                         <li><Link to="/services#gis-survey">GIS Mapping & Survey Services</Link></li>
                     </ul>
 
